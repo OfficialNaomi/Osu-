@@ -55,5 +55,5 @@
     *   **Naomi's Verdict:** Required multiple attempts at the end of a long session. Features overlapping circles which are cool for beginners but tricky to hit perfectly. 
 *   **[NicolArmarfi - Three Stars [SEE's Calm]](https://osu.ppy.sh/beatmapsets/370950#osu/824137)**
     *   **Stats:** 0.87★ | 86 BPM | 0:53 Length | AR2.5 | OD2.5
-    *   **Status:** Active Target (Current Best: S-Rank)
+    *   **Status:** **SS ACHIEVED!** 🥇
     *   **Notes:** Left-monitor calibration run complete. Needs a final 100% execution pass on the right screen.
