@@ -5,9 +5,9 @@
 ---
 
 ## 📊 The Master Counter
-*   **Current Gold SS:** 223
+*   **Current Gold SS:** 225
 *   **Current Silver SS:** 2
-*   **Total Mastered Maps:** 225
+*   **Total Mastered Maps:** 227
 
 ---
 
@@ -33,6 +33,14 @@
 ## 🔍 Pre-Scouting & Active Targets
 *All mapped data points are currently held here for calibration before final sorting.*
 
+*   **[Manaka Kataoka & Atsuko Asahi - Gozen 1-ji (Rain) [12:46 AM (Renumi's Beginner)]](https://osu.ppy.sh/beatmapsets/550486#osu/1166947)**
+    *   **Stats:** 0.91★ | 67 BPM | 1:00 Length | AR2 | OD1
+    *   **Status:** **SS ACHIEVED!** 🥇
+    *   **Naomi's Verdict:** Coole Map, aber die Slider-Formen sind nicht ganz so cool und besonders designt wie bei der anderen Schwierigkeit [12:45 AM (Beginner)].
+*   **[Manaka Kataoka & Atsuko Asahi - Gozen 1-ji (Rain) [12:45 AM (Beginner)]](https://osu.ppy.sh/beatmapsets/550486#osu/1166214)**
+    *   **Stats:** 0.84★ | 67 BPM | 1:01 Length | AR0 | OD0
+    *   **Status:** **SS ACHIEVED!** 🥇
+    *   **Naomi's Verdict:** A very nice, slow map featuring cool slider designs. Perfect for relaxed tracking focus.
 *   **[UNDEAD CORPORATION - Yume [Harumi's Normal]](https://osu.ppy.sh/beatmapsets/2466732#osu/5400722)**
     *   **Stats:** 1.75★ | 87.75 BPM | 0:39 Length | AR4 | OD3
     *   **Status:** **SS ACHIEVED!** 🥇
