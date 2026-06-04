@@ -1,13 +1,13 @@
 # 🗺️ Naomi's 1-Star Completionist Sidequest Log 
 
-> "We are changing the meta. SS or it doesn't exist."
+> "All or nothing."
 
 ---
 
 ## 📊 The Master Counter
-*   **Current Gold SS:** 218
+*   **Current Gold SS:** 223
 *   **Current Silver SS:** 2
-*   **Total Mastered Maps:** 220
+*   **Total Mastered Maps:** 225
 
 ---
 
@@ -33,6 +33,26 @@
 ## 🔍 Pre-Scouting & Active Targets
 *All mapped data points are currently held here for calibration before final sorting.*
 
+*   **[UNDEAD CORPORATION - Yume [Harumi's Normal]](https://osu.ppy.sh/beatmapsets/2466732#osu/5400722)**
+    *   **Stats:** 1.75★ | 87.75 BPM | 0:39 Length | AR4 | OD3
+    *   **Status:** **SS ACHIEVED!** 🥇
+    *   **Naomi's Verdict:** Features a faster pace than the lower difficulties, but remains a very clean map to play.
+*   **[UNDEAD CORPORATION - Yume [Easy]](https://osu.ppy.sh/beatmapsets/2466732#osu/5400800)**
+    *   **Stats:** 1.08★ | 89 BPM | 0:39 Length | AR2 | OD1.5
+    *   **Status:** **SS ACHIEVED!** 🥇
+    *   **Naomi's Verdict:** Contains no regular hit circles at all. Relies entirely on nice continuous movement and beautiful slider forms.
+*   **[UNDEAD CORPORATION - Yume [477's Beginner]](https://osu.ppy.sh/beatmapsets/2466732#osu/5400801)**
+    *   **Stats:** 0.79★ | 89 BPM | 0:33 Length | AR1 | OD0
+    *   **Status:** **SS ACHIEVED!** 🥇
+    *   **Naomi's Verdict:** Features nice basic movement and pretty slider designs. A solid, clean layout.
+*   **[Lena Park - Inori~You Raise Me Up (TV Size) [Lanturn's Beginner]](https://osu.ppy.sh/beatmapsets/172662#osu/417503)**
+    *   **Stats:** 0.79★ | 124 BPM | 1:23 Length | AR1 | OD0
+    *   **Status:** **SS ACHIEVED!** 🥇
+    *   **Naomi's Verdict:** Slow and pleasant to play. A nice starter map, though relatively basic in its design.
+*   **[toby fox - Quiet Water [Still]](https://osu.ppy.sh/beatmapsets/2324447#osu/4982055)**
+    *   **Stats:** 0.77★ | 60 BPM | 0:28 Length | AR2 | OD1
+    *   **Status:** **SS ACHIEVED!** 🥇
+    *   **Naomi's Verdict:** Felt familiar because it shares the same track structure as the other difficulties. It's a slow, nice map that isn't bad to play, but it isn't particularly special either.
 *   **[25-ji, Nightcord de. x Kagamine Len - Nihil-san [Easy]](https://osu.ppy.sh/beatmapsets/2366961#osu/5112401)**
     *   **Stats:** 1.73★ | 115 BPM | 2:27 Length | AR4 | OD2
     *   **Status:** **SS ACHIEVED!** 🥇 *(Contender for Element 3)*
@@ -77,11 +97,11 @@
     *   **Stats:** 0.85★ | 100 BPM | 1:30 Length | AR1.5 | OD0
     *   **Status:** **SS ACHIEVED!** 🥇
     *   **Naomi's Verdict:** Demanded absolute concentration. Not the most difficult song mechanically, but requires intense focus to prevent the "monkey brain" from taking over and messing up. Features nice basic sliders and basic patterns overall.
-*   **[NicolArmarfi - Three Stars [Relaxing]](https://osu.ppy.sh/beatmapsets/370950#osu/843417)**
+*   **[NicolArmarfi - Three Stars [Relaxing]](https://osu.ppy.sh/beatmapsets/393995#osu/843417)**
     *   **Stats:** 1.37★ | 86 BPM | 0:53 Length | AR3.5 | OD3.5
     *   **Status:** **SS ACHIEVED!** 🥇
     *   **Naomi's Verdict:** Has the same soft, calming feeling as the other difficulties, but felt the easiest to play due to the lack of sudden breaks.
-*   **[NicolArmarfi - Three Stars [Aia's Relaxing]](https://osu.ppy.sh/beatmapsets/370950#osu/843415)**
+*   **[NicolArmarfi - Three Stars [Aia's Relaxing]](https://osu.ppy.sh/beatmapsets/393995#osu/843415)**
     *   **Stats:** 1.25★ | 86 BPM | 0:51 Length | AR3 | OD3
     *   **Status:** **SS ACHIEVED!** 🥇
     *   **Naomi's Verdict:** Required multiple attempts at the end of a long session. Features overlapping circles which are cool for beginners but tricky to hit perfectly.
