@@ -5,9 +5,9 @@
 ---
 
 ## 📊 The Master Counter
-*   **Current Gold SS:** 225
+*   **Current Gold SS:** 236
 *   **Current Silver SS:** 2
-*   **Total Mastered Maps:** 227
+*   **Total Mastered Maps:** 238
 
 ---
 
@@ -33,6 +33,46 @@
 ## 🔍 Pre-Scouting & Active Targets
 *All mapped data points are currently held here for calibration before final sorting.*
 
+*   **[toby fox - Quiet Water [Still]](https://osu.ppy.sh/beatmapsets/393995#osu/857602)**
+    *   **Stats:** 0.77★ | 60 BPM | 0:28 Length | AR2 | OD1
+    *   **Status:** **SS ACHIEVED!** 🥇
+    *   **Naomi's Verdict:** Sehr gute Map. Hilft ungemein beim Erlernen des mentalen Fokussierens, um in extrem langsamen Phasen absolut aufmerksam und ruhig zu bleiben.
+*   **[toby fox - Quiet Water [Calm]](https://osu.ppy.sh/beatmapsets/393995#osu/857603)**
+    *   **Stats:** 1.18★ | 60 BPM | 0:28 Length | AR4 | OD3
+    *   **Status:** **SS ACHIEVED!** 🥇
+    *   **Naomi's Verdict:** Eine sehr angenehme, kurze Map zum Spielen. Perfekt, um nach schnellen Songs wieder komplett runterzukommen und den Fokus zu stabilisieren.
+*   **[UNDEAD CORPORATION - Death is just the beginning [Ayyri's Easy]](https://osu.ppy.sh/beatmapsets/1165822#osu/2431514)**
+    *   **Stats:** 1.80★ | 120 BPM | 0:50 Length | AR4 | OD3
+    *   **Status:** **SS ACHIEVED!** 🥇
+    *   **Naomi's Verdict:** Hat mega kleine Kreise und wirft unlogischerweise weniger pp ab als leichtere Diffs, was absolut wild ist. Brauchte wegen der Circle-Größe einige Restarts, ist aber dank Perfect-Mod super machbar gewesen. Sehr schön gebaut, die Musik wird richtig geil gruselig und es pusht das Maus-Gameplay extrem.
+*   **[UNDEAD CORPORATION - Death is just the beginning [Normal]](https://osu.ppy.sh/beatmapsets/1165822#osu/2431521)**
+    *   **Stats:** 1.74★ | 120 BPM | 0:50 Length | AR4 | OD3
+    *   **Status:** **SS ACHIEVED!** 🥇
+    *   **Naomi's Verdict:** Ein bisschen schwerer als die Easy-Diff, aber durch die saubere Strukturierung immer noch sehr angenehm zu spielen.
+*   **[UNDEAD CORPORATION - Death is just the beginning [Easy]](https://osu.ppy.sh/beatmapsets/1165822#osu/2431518)**
+    *   **Stats:** 1.69★ | 120 BPM | 0:49 Length | AR3 | OD2
+    *   **Status:** **SS ACHIEVED!** 🥇 *(Earmarked für Element 5)*
+    *   **Naomi's Verdict:** Eine schnelle, aber beim Spielen sehr angenehme Map. Eignet sich durch die Strukturierung hervorragend als Einstieg, um das Doppelklicken sauber zu trainieren.
+*   **[TIA feat. Le Thien Hieu - Ai Dua Em Ve (Cukak Remix) (Agnes Tachyon Low Cortisol Edit) (Cut Ver.) [Low Cortisol]](https://osu.ppy.sh/beatmapsets/2510616#osu/5532471)**
+    *   **Stats:** 1.97★ | 128 BPM | 0:32 Length | AR5 | OD4
+    *   **Status:** **SS ACHIEVED!** 🥇
+    *   **Naomi's Verdict:** Die Circles sind extrem klein, was bei 1,97★ echt verrückt ist. Trotzdem überhaupt keine schlechte Map, sondern absolut angenehm und schön zu spielen.
+*   **[Tanza3D - what's done is done [Lott's Simple]](https://osu.ppy.sh/beatmapsets/2506607#osu/5526234)**
+    *   **Stats:** 1.18★ | 120 BPM | 1:18 Length | AR4 | OD3
+    *   **Status:** **SS ACHIEVED!** 🥇
+    *   **Naomi's Verdict:** Eine wunderschöne Map. Fühlt sich beim Spielen sehr angenehm und entspannt langsam an. Perfekter Session-Abschluss.
+*   **[Zerosiki Material - Love [Hard]](https://osu.ppy.sh/beatmapsets/493676#osu/1051422)**
+    *   **Stats:** 1.34★ | 50 BPM | 0:40 Length | AR5 | OD4
+    *   **Status:** **SS ACHIEVED!** 🥇
+    *   **Naomi's Verdict:** Extrem gut gemappt mit einer strikten Linienführung, der man präzise folgen muss. Ein kleines Biest, fühlte sich durch die höhere AR5 aber beim Lesen überraschenderweise leichter an als die Advanced-Diff. Direkt im zweiten Versuch gecleart (100% FC).
+*   **[Zerosiki Material - Love [Advanced]](https://osu.ppy.sh/beatmapsets/493676#osu/1051359)**
+    *   **Stats:** 1.13★ | 50 BPM | 0:40 Length | AR2.5 | OD3
+    *   **Status:** **SS ACHIEVED!** 🥇 *(Contender für den Guide)*
+    *   **Naomi's Verdict:** Ein starker Spitzenkandidat. Teilt sich das strikte, sanfte Pacing mit der kleineren Diff, fordert dich aber durch kleinere Circles und deutlich mehr Action mechanisch viel mehr heraus.
+*   **[Zerosiki Material - Love [Normal]](https://osu.ppy.sh/beatmapsets/493676#osu/1051358)**
+    *   **Stats:** 0.84★ | 50 BPM | 0:40 Length | AR0 | OD2
+    *   **Status:** **SS ACHIEVED!** 🥇
+    *   **Naomi's Verdict:** Folgt dem Rhythmus auf eine sanfte, aber extrem präzise Weise. Die Approach Circles schrumpfen perfekt zum Takt, was genial für das Timing-Training ist. Kein Contender, aber ein super Practice-Tool.
 *   **[Manaka Kataoka & Atsuko Asahi - Gozen 1-ji (Rain) [12:46 AM (Renumi's Beginner)]](https://osu.ppy.sh/beatmapsets/550486#osu/1166947)**
     *   **Stats:** 0.91★ | 67 BPM | 1:00 Length | AR2 | OD1
     *   **Status:** **SS ACHIEVED!** 🥇
@@ -112,4 +152,14 @@
 *   **[NicolArmarfi - Three Stars [Aia's Relaxing]](https://osu.ppy.sh/beatmapsets/393995#osu/843415)**
     *   **Stats:** 1.25★ | 86 BPM | 0:51 Length | AR3 | OD3
     *   **Status:** **SS ACHIEVED!** 🥇
-    *   **Naomi's Verdict:** Required multiple attempts at the end of a long session. Features overlapping circles which are cool for beginners but tricky to hit perfectly.
+    *   **Naomi's Verdict:** Required multiple attempts at the end of a long session. Features overlapping circles which are cool for beginners but tricky to hit perfectly. 
+
+---
+
+## 🌌 Off-Category Apex Targets (2★+ Bonus)
+*Completed maps that transcend the 1-star boundary during research blocks.*
+
+*   **[Zerosiki Material - Love [Hora~ Hora~]](https://osu.ppy.sh/beatmapsets/493676#osu/1051360)**
+    *   **Stats:** 2.28★ | 50 BPM | 0:40 Length | AR6 | OD6
+    *   **Status:** **SS ACHIEVED!** 🥇
+    *   **Naomi's Verdict:** Knallharte 2-Sterne-Diff mit den kleinsten Circles im Set und höherem OD6-Anspruch. Teilt den gleichen schleppenden Grundrhythmus, zieht das Tempo über schneller getaktete Slider aber massiv an. Ein absolutes Biest, trotzdem erfolgreich im First-Try-Block mit 100% FC rasiert.
