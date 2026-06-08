@@ -5,9 +5,9 @@
 ---
 
 ## 📊 The Master Counter
-*   **Current Gold SS:** 236
+*   **Current Gold SS:** 240
 *   **Current Silver SS:** 2
-*   **Total Mastered Maps:** 238
+*   **Total Mastered Maps:** 242
 
 ---
 
@@ -33,6 +33,14 @@
 ## 🔍 Pre-Scouting & Active Targets
 *All mapped data points are currently held here for calibration before final sorting.*
 
+*   **Daniel James Taylor - Pollution (Interlude) [Arf's Automation Science Normal]**
+    *   **Stats:** 1.91★ | 140 BPM | 0:50 Length | AR5 | OD4
+    *   **Status:** **SS ACHIEVED!** 🥇 *(Earmarked für Element 5)*
+    *   **Naomi's Verdict:** Sehr coole Map. Die Triples sind super schön gelegt und bieten eine hervorragende Übung für die Fingerkontrolle.
+*   **[toby fox - Quiet Water [Turtwig's Placid]](https://osu.ppy.sh/beatmapsets/393995#osu/875075)**
+    *   **Stats:** 1.64★ | 60 BPM | 0:28 Length | AR5.5 | OD4
+    *   **Status:** **SS ACHIEVED!** 🥇
+    *   **Naomi's Verdict:** Die Slider werden merklich kleiner, was mehr Präzision beim Tracking erfordert. Trotzdem sehr schön gemappt und extrem angenehm zu spielen.
 *   **[toby fox - Quiet Water [Still]](https://osu.ppy.sh/beatmapsets/393995#osu/857602)**
     *   **Stats:** 0.77★ | 60 BPM | 0:28 Length | AR2 | OD1
     *   **Status:** **SS ACHIEVED!** 🥇
@@ -159,6 +167,14 @@
 ## 🌌 Off-Category Apex Targets (2★+ Bonus)
 *Completed maps that transcend the 1-star boundary during research blocks.*
 
+*   **[Middle Kids - R U 4 Me? (Cut Ver.) [normal]](https://osu.ppy.sh/beatmapsets/2282539#osu/4921699)**
+    *   **Stats:** 2.65★ | 230 BPM | 1:22 Length | AR5.5 | OD4.5
+    *   **Status:** **SS ACHIEVED!** 🥇
+    *   **Naomi's Verdict:** Sehr schöne Map mit angenehmem Pacing. Durch das tolle Lied spielt sie sich sehr spaßig und hat einen coolen, spacigen Vibe.
+*   **[dj TAKA - quaver [Myxo's Easy]](https://osu.ppy.sh/beatmapsets/873811#osu/1827144)**
+    *   **Stats:** 2.48★ | 186 BPM | 1:00 Length | AR4 | OD3
+    *   **Status:** **SS ACHIEVED!** 🥇
+    *   **Naomi's Verdict:** An einigen Stellen ein bisschen gemein, weil die Map unerwartete Pausen nimmt. Genau das macht sie aber zu einer extrem guten Übung für das Lesen und Rhythmusgefühl.
 *   **[Zerosiki Material - Love [Hora~ Hora~]](https://osu.ppy.sh/beatmapsets/493676#osu/1051360)**
     *   **Stats:** 2.28★ | 50 BPM | 0:40 Length | AR6 | OD6
     *   **Status:** **SS ACHIEVED!** 🥇
