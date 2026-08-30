@@ -5,9 +5,9 @@
 ---
 
 ## 📊 The Master Counter
-*   **Current Gold SS:** 241
+*   **Current Gold SS:** 242
 *   **Current Silver SS:** 2
-*   **Total Mastered Maps:** 243
+*   **Total Mastered Maps:** 244
 
 ---
 
@@ -34,6 +34,11 @@
 *All mapped data points are currently held here for calibration before final sorting.*
 
 
+
+*   **[Zachz Winner - doodle [easy]](https://osu.ppy.sh/beatmapsets/2253429#osu/4794195)**
+    *   **Stats:** 1.67★ | 160 BPM | 1:01 Length | AR3 | OD3
+    *   **Status:** **SS ACHIEVED!** 🥇
+    *   **Naomi's Verdict:** *Verdict pending...*
 *   **[Manaka Kataoka & Atsuko Asahi - Gozen 1-ji (Rain) [1:00 AM (Easy)]](https://osu.ppy.sh/beatmapsets/550486#osu/1166229)**
     *   **Stats:** 0.97★ | 67 BPM | 1:04 Length | AR2 | OD2
     *   **Status:** **SS ACHIEVED!** 🥇
