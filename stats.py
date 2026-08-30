@@ -1,16 +1,17 @@
 import requests
 import os
 import re
-import subprocess
 from dotenv import load_dotenv
 
-# Lade die versteckten Keys aus der .env Datei
 load_dotenv()
 
 CLIENT_ID = os.getenv('OSU_CLIENT_ID')
 CLIENT_SECRET = os.getenv('OSU_CLIENT_SECRET')
 USER_ID = os.getenv('OSU_USER_ID')
-FILE_PATH = '1star/sidequest.md' 
+
+# Absoluter Pfad, damit wir immer die richtige Datei treffen
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+FILE_PATH = os.path.join(SCRIPT_DIR, '1star', 'sidequest.md')
 
 def get_token():
     print("🔑 Authenticating with osu! API...")
@@ -28,21 +29,22 @@ def get_token():
 def get_user_stats(token):
     print(f"📊 Fetching exact SS counts from profile...")
     headers = {'Authorization': f'Bearer {token}'}
-    # Zieht die kompletten User-Statistiken
     url = f'https://osu.ppy.sh/api/v2/users/{USER_ID}/osu'
     response = requests.get(url, headers=headers)
     response.raise_for_status()
     
     data = response.json()
-    ss_count = data['statistics']['grade_counts']['ss']   # Gold SS
-    ssh_count = data['statistics']['grade_counts']['ssh'] # Silber SS (Silver SS)
+    ss_count = data['statistics']['grade_counts']['ss']
+    ssh_count = data['statistics']['grade_counts']['ssh']
     total_mastered = ss_count + ssh_count
     
     print(f"   -> Online Stats: {ss_count} Gold SS | {ssh_count} Silver SS | {total_mastered} Total")
-    return ss_count, total_mastered
+    
+    # JETZT geben wir alle DREI Werte zurück!
+    return str(ss_count), str(ssh_count), str(total_mastered)
 
 def get_top_ss_plays(token):
-    print(f"📡 Fetching RECENT scores for user {USER_ID}...")
+    print(f"📡 Fetching RECENT scores (last 24 hours) for user {USER_ID}...")
     headers = {'Authorization': f'Bearer {token}'}
     url = f'https://osu.ppy.sh/api/v2/users/{USER_ID}/scores/recent?mode=osu&limit=100&include_fails=0'
     response = requests.get(url, headers=headers)
@@ -72,31 +74,40 @@ def get_top_ss_plays(token):
             
     return ss_plays
 
-def update_markdown_file(plays, ss_count, total_mastered):
+def update_markdown_file(plays, ss_count, ssh_count, total_mastered):
     os.makedirs(os.path.dirname(FILE_PATH), exist_ok=True)
-    
-    # 1. Alte Datei laden
+
     if os.path.exists(FILE_PATH):
         with open(FILE_PATH, 'r', encoding='utf-8') as f:
             content = f.read()
     else:
-        content = "## 🔍 Pre-Scouting & Active Targets\n*All mapped data points are currently held here for calibration before final sorting.*\n\n"
+        content = ""
 
-    original_content = content
+    if "Current Gold SS:" not in content:
+        print("🏗️ Datei ist leer oder fehlerhaft: Generiere das Basis-Layout neu...")
+        content = """# 🗺️ Naomi's 1-Star Completionist Sidequest Log 
 
-    # 2. Zähler IMMER mit den echten Live-Zahlen überschreiben
-    content = re.sub(
-        r'(\*\s+\*\*Current Gold SS:\*\*\s+)\d+', 
-        rf'\g<1>{ss_count}', 
-        content
-    )
-    content = re.sub(
-        r'(\*\s+\*\*Total Mastered Maps:\*\*\s+)\d+', 
-        rf'\g<1>{total_mastered}', 
-        content
-    )
+> "All or nothing."
 
-    # 3. Neue Maps filtern
+---
+
+## 📊 The Master Counter
+*   **Current Gold SS:** 0
+*   **Current Silver SS:** 0
+*   **Total Mastered Maps:** 0
+
+---
+
+## 🔍 Pre-Scouting & Active Targets
+*All mapped data points are currently held here for calibration before final sorting.*
+
+"""
+
+    # ALLE drei Zähler knallhart überschreiben
+    content = re.sub(r'(Current Gold SS:[\*\s]*)(\d+)', rf'\g<1>{ss_count}', content, flags=re.IGNORECASE)
+    content = re.sub(r'(Current Silver SS:[\*\s]*)(\d+)', rf'\g<1>{ssh_count}', content, flags=re.IGNORECASE)
+    content = re.sub(r'(Total Mastered Maps:[\*\s]*)(\d+)', rf'\g<1>{total_mastered}', content, flags=re.IGNORECASE)
+
     new_plays = []
     seen_links = set()
     
@@ -106,8 +117,7 @@ def update_markdown_file(plays, ss_count, total_mastered):
             seen_links.add(play['link'])
 
     if new_plays:
-        print(f"✨ Found {len(new_plays)} BRAND NEW SS ranks for the list!")
-        # Text-Block generieren
+        print(f"✨ Found {len(new_plays)} BRAND NEW SS ranks! Füge sie ein...")
         new_content = ""
         for play in new_plays:
             new_content += f"*   **[{play['title']}]({play['link']})**\n"
@@ -115,55 +125,28 @@ def update_markdown_file(plays, ss_count, total_mastered):
             new_content += f"    *   **Status:** **SS ACHIEVED!** 🥇\n"
             new_content += f"    *   **Naomi's Verdict:** *Verdict pending...*\n"
         
-        # Maps einfügen
-        injection_point = r"(\*All mapped data points are currently held here for calibration before final sorting\.\*\n\n)"
-        if re.search(injection_point, content):
-            content = re.sub(injection_point, rf"\1{new_content}", content)
+        injection_point = r"(\*All mapped data points are currently held here for calibration before final sorting\.\*\s*)"
+        if re.search(injection_point, content, flags=re.IGNORECASE):
+            content = re.sub(injection_point, rf"\1\n{new_content}", content, flags=re.IGNORECASE)
         else:
-            content += "\n" + new_content
+            content += "\n\n" + new_content
     else:
-        print("ℹ️ Keine neuen Maps für die Liste gefunden.")
+        print("ℹ️ Keine neuen Maps in den letzten 24 Stunden gespielt (oder schon eingetragen).")
 
-    # 4. Prüfen, ob sich ÜBERHAUPT etwas geändert hat (Maps oder Zahlen)
-    if content != original_content:
-        with open(FILE_PATH, 'w', encoding='utf-8') as f:
-            f.write(content)
-        print("✅ Markdown file updated locally (Stats and/or Maps synced)!")
-        return True # Es gab Änderungen, Git soll hochladen
-    else:
-        print("🛑 Nichts zu tun! Zahlen sind aktuell und keine neuen Maps.")
-        return False # Keine Änderungen
-
-def git_commit_and_push():
-    print("\n🚀 Uploading to GitHub...")
-    try:
-        subprocess.run(["git", "add", FILE_PATH], check=True)
-        subprocess.run(["git", "commit", "-m", "Auto-update: Synced Live SS Stats and recent maps"], check=True)
-        subprocess.run(["git", "push"], check=True)
-        print("✅ Successfully pushed to GitHub! Real lazy automation complete.")
-    except FileNotFoundError:
-        print("\n❌ FEHLER: Windows kennt den Befehl 'git' nicht!")
-        print("💡 Lösung: Starte dieses Skript in 'Git Bash' oder im Terminal von VS Code.")
-    except subprocess.CalledProcessError:
-        print(f"\n❌ Git failed! (Oder es gab schlicht nichts Neues zum Committen).")
+    with open(FILE_PATH, 'w', encoding='utf-8') as f:
+        f.write(content)
+    
+    print(f"\n✅ ERFOLG: Ich habe alles in EXAKT DIESE DATEI geschrieben:")
+    print(f"👉 {FILE_PATH} 👈")
 
 if __name__ == "__main__":
     try:
         token = get_token()
-        
-        # Hol erst die exakten Account-Stats
-        ss_count, total_mastered = get_user_stats(token)
-        
-        # Hol dann die Recent Plays
+        ss_count, ssh_count, total_mastered = get_user_stats(token)
         ss_plays = get_top_ss_plays(token)
         ss_plays.sort(key=lambda x: x['stars'])
         
-        # Update die Datei und gib True zurück, wenn sich was geändert hat
-        has_changes = update_markdown_file(ss_plays, ss_count, total_mastered)
-        
-        # Git Upload NUR ausführen, wenn die Datei wirklich verändert wurde
-        if has_changes:
-            git_commit_and_push()
+        update_markdown_file(ss_plays, ss_count, ssh_count, total_mastered)
             
     except Exception as e:
         print(f"❌ An error occurred: {e}")
