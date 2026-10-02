@@ -5,9 +5,9 @@
 ---
 
 ## 📊 The Master Counter
-*   **Current Gold SS:** 247
+*   **Current Gold SS:** 248
 *   **Current Silver SS:** 2
-*   **Total Mastered Maps:** 249
+*   **Total Mastered Maps:** 250
 
 ---
 
@@ -19,6 +19,11 @@
 
 
 
+
+*   **[Manaka Kataoka & Atsuko Asahi - Gozen 1-ji (Rain) [1:10 AM (Novice)]](https://osu.ppy.sh/beatmapsets/550486#osu/1166230)**
+    *   **Stats:** 1.15★ | 67 BPM | 1:04 Length | AR3 | OD2
+    *   **Status:** **SS ACHIEVED!** 🥇
+    *   **Naomi's Verdict:** *Nice to get started*
 *   **[CHiCO with HoneyWorks - Kessen Spirit (TV Size) [Haruki's Easy]](https://osu.ppy.sh/beatmapsets/1092298#osu/2291417)**
     *   **Stats:** 1.88★ | 188 BPM | 1:18 Length | AR3 | OD2
     *   **Status:** **SS ACHIEVED!** 🥇
